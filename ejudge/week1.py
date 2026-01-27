@@ -1,0 +1,128 @@
+#1.1
+"""
+name=input()
+print("Hello, "+name+"!")
+"""
+#1.2
+"""
+a=input()
+b=input()
+print(a,b,sep='***')
+"""
+#1.3
+"""
+a=input()
+if a.isdigit():
+    print("int")
+else:
+    print("str")
+"""
+#1.4
+"""
+a=int(input())
+b=int(input())
+print(a+b)
+"""
+#1.5
+"""
+a=int(input())
+b=int(input())
+print(a//b)
+print(a/b)
+"""
+#1.6
+"""
+a=int(input())
+b=int(input())
+print(a**b)
+"""
+#1.7
+"""
+a=int(input())
+b=int(input())
+print(a%b)
+"""
+#1.8
+"""
+a=input()
+b=int(input())
+print(a*b)
+"""
+#1.9
+"""
+a=input()
+print(len(a))
+"""
+#1.10
+"""
+a=input()
+print(a.upper())
+print(a.lower())
+"""
+#1.11
+"""
+a=input()
+print(a[0],a[-1])
+"""
+#1.12
+"""
+a=input()
+print(a[2:5])
+"""
+#1.13
+"""
+a=input()
+print(a[::-1])
+"""
+#1.14
+"""
+name=input()
+age=int(input())
+print(f"Hello, {name}. You are {age} years old.")
+"""
+#1.15
+"""
+a=input()
+b=input()
+if b in a:
+    print(True)
+else:
+    print(False)
+"""
+#1.16
+"""
+a=input()
+b=input()
+print(a+b)
+"""
+#1.17
+"""
+a=input()
+b=input()
+print(b,a)
+"""
+#1.18
+"""
+a=int(input())
+if a%2==0:
+    print("even")
+else:
+    print("odd")
+"""
+#1.19
+"""
+a=input()
+b=input()
+c=input()
+print(a.replace(b,c))
+"""
+#1.20
+a=int(input())
+b=int(input())
+if a>b:
+    print(a)
+elif a==b:
+    print("equal")
+else:
+    print(b)
+
