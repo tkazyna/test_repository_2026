@@ -283,5 +283,3 @@ for _ in range(q):
 
 print(*arr)
 """
-
-
